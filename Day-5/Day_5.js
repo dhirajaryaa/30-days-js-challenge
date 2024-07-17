@@ -28,4 +28,19 @@ const Str = function(str1,str2){
 }
 // console.log(Str("Dhiraj","Arya"));
 
-// Activity 3: Function Expression ----
+// Activity 3: Arrow Function ----
+const sumNumber = (num1,num2)=>{
+    return num1+num2
+}
+// console.log(sumNumber(15,16));
+
+const checkStr = (str)=>{
+    if(str === "arya"){
+        return true
+    }else{
+        return false
+    }
+}
+// console.log(checkStr("arya"));
+// console.log(checkStr("dhirajarya"));
+
