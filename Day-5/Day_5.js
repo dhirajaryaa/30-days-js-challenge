@@ -44,3 +44,13 @@ const checkStr = (str)=>{
 // console.log(checkStr("arya"));
 // console.log(checkStr("dhirajarya"));
 
+// Activity 4: Function Parameters and Default Values ----
+const data = (param1,param2="soda")=>{
+    console.log(param1+param2);
+}
+// data("backing")
+
+const getMassage = function (name,age=18){
+    return `Good Morning ${name} Your age is ${age}`
+}
+console.log(getMassage("Gopi"));
