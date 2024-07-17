@@ -26,6 +26,21 @@ const findMaxNum = function(num1,num2){
 const Str = function(str1,str2){
     return str1+str2
 }
-console.log(Str("Dhiraj","Arya"));
+// console.log(Str("Dhiraj","Arya"));
 
 // Activity 3: Function Expression ----
+const sumNumber = (num1,num2)=>{
+return num1+num2
+}
+// console.log(sumNumber(15,8));
+
+const checkStr = (str)=>{
+    if(str === "arya"){
+        return true
+    }else{
+        return false
+    }
+}
+// console.log(checkStr("arya"));
+// console.log(checkStr("Dhiraj"));
+
